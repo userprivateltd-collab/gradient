@@ -28,7 +28,7 @@ export default function CTA() {
 
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
-                href="mailto:contact@gradient.ai"
+                href="mailto:gradientsupportio@gmail.com"
                 className="w-full sm:w-auto px-8 py-4 rounded-full bg-white text-black font-semibold hover:bg-neutral-200 transition-colors flex items-center justify-center gap-2"
               >
                 Get Started Now
