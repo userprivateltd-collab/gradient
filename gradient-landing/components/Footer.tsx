@@ -16,10 +16,10 @@ export default function Footer() {
         <p>© 2026 Gradient Inc. All rights reserved.</p>
 
         <div className="flex items-center gap-6">
-          <a href="#" className="hover:text-white transition-colors">
-            <Twitter className="w-5 h-5" />
+          <a href="https://www.instagram.com/gradient.ue/?utm_source=ig_web_button_share_sheet" className="hover:text-white transition-colors">
+            <Instagram className="w-5 h-5" />
           </a>
-          <a href="#" className="hover:text-white transition-colors">
+          <a href="https://github.com/userprivateltd-collab" className="hover:text-white transition-colors">
             <Github className="w-5 h-5" />
           </a>
           <a href="#" className="hover:text-white transition-colors">
