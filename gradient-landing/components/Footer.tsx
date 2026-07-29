@@ -1,6 +1,7 @@
 "use client";
 
-import { Sparkles, Github, Twitter, Linkedin } from "lucide-react";
+// Add Instagram to the import statement on line 3:
+import { Sparkles, Github, Twitter, Linkedin, Instagram } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -16,14 +17,24 @@ export default function Footer() {
         <p>© 2026 Gradient Inc. All rights reserved.</p>
 
         <div className="flex items-center gap-6">
-          <a href="https://www.instagram.com/gradient.ue/?utm_source=ig_web_button_share_sheet" className="hover:text-white transition-colors">
+          {/* Instagram */}
+          <a
+            href="https://www.instagram.com/gradient.ue/?utm_source=ig_web_button_share_sheet"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-white transition-colors"
+          >
             <Instagram className="w-5 h-5" />
           </a>
-          <a href="https://github.com/userprivateltd-collab" className="hover:text-white transition-colors">
+
+          {/* GitHub */}
+          <a
+            href="https://github.com/userprivateltd-collab"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-white transition-colors"
+          >
             <Github className="w-5 h-5" />
-          </a>
-          <a href="#" className="hover:text-white transition-colors">
-            <Linkedin className="w-5 h-5" />
           </a>
         </div>
       </div>
