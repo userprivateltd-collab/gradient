@@ -61,6 +61,7 @@ export default function About() {
                 <h4 className="text-lg font-bold mt-1">Aesthetic Excellence</h4>
                 <p className="text-sm text-neutral-400 mt-1">
                   Functional utility paired with world-class user experiences.
+                  <h2>Built and founded by RAJESH BANOTH <h2/>
                 </p>
               </div>
             </div>
