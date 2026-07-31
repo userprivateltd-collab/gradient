@@ -604,11 +604,7 @@ canvas#heroChart {
 
 .features-grid {
   display: grid;
-<<<<<<< HEAD
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-=======
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
->>>>>>> bcc87f2 (Optimize site for mobile devices)
   gap: 2rem;
 }
 
@@ -833,8 +829,6 @@ canvas#heroChart {
   box-shadow: var(--shadow-lg);
 }
 
-<<<<<<< HEAD
-=======
 .form-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -848,7 +842,6 @@ canvas#heroChart {
   margin-bottom: 2rem;
 }
 
->>>>>>> bcc87f2 (Optimize site for mobile devices)
 .form-group {
   margin-bottom: 1.5rem;
 }
@@ -1051,13 +1044,10 @@ textarea.form-control {
     transform: translateY(0);
   }
 
-<<<<<<< HEAD
-=======
   .nav-actions .btn {
     display: none;
   }
 
->>>>>>> bcc87f2 (Optimize site for mobile devices)
   .mobile-menu-btn {
     display: flex;
     align-items: center;
@@ -1079,9 +1069,6 @@ textarea.form-control {
   .hero-title {
     font-size: 2.5rem;
   }
-<<<<<<< HEAD
-=======
-  
   .metrics-grid {
     grid-template-columns: 1fr;
   }
@@ -1094,7 +1081,6 @@ textarea.form-control {
     padding: 2rem 1.5rem;
   }
 
->>>>>>> bcc87f2 (Optimize site for mobile devices)
   .footer-grid {
     grid-template-columns: 1fr;
   }
